@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_nama"
+        android:layout_width="360dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="499dp"
+        android:hint="@string/editText_nama" />
+
+    <EditText
+        android:id="@+id/editText_alamat"
+        android:layout_width="363dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="393dp"
+        android:hint="@string/editText_alamat" />
+
+    <EditText
+        android:id="@+id/editText_nohp"
+        android:layout_width="360dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="278dp"
+        android:hint="@string/editText_nohp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="177dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="69dp"
+        android:onClick="launchSecondActivity"
+        android:text="@string/button_main" />
+
+</RelativeLayout>

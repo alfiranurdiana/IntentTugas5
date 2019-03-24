@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Latihan5</string>
+    <string name="button_main">Register</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="text_header">Register</string>
+    <string name="button_share">Share</string>
+    <string name="editText_alamat">Alamat</string>
+    <string name="editText_nama">Nama</string>
+    <string name="editText_nohp">No. HP</string>
+
+</resources>
